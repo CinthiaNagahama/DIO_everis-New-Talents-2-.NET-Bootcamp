@@ -1,0 +1,16 @@
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\bin\Debug\net5.0\hello_world.exe
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\bin\Debug\net5.0\hello_world.deps.json
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\bin\Debug\net5.0\hello_world.runtimeconfig.json
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\bin\Debug\net5.0\hello_world.runtimeconfig.dev.json
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\bin\Debug\net5.0\hello_world.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\bin\Debug\net5.0\ref\hello_world.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\bin\Debug\net5.0\hello_world.pdb
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\obj\Debug\net5.0\hello_world.csproj.AssemblyReference.cache
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\obj\Debug\net5.0\hello_world.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\obj\Debug\net5.0\hello_world.AssemblyInfoInputs.cache
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\obj\Debug\net5.0\hello_world.AssemblyInfo.cs
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\obj\Debug\net5.0\hello_world.csproj.CoreCompileInputs.cache
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\obj\Debug\net5.0\hello_world.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\obj\Debug\net5.0\ref\hello_world.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\obj\Debug\net5.0\hello_world.pdb
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\hello_world\obj\Debug\net5.0\hello_world.genruntimeconfig.cache

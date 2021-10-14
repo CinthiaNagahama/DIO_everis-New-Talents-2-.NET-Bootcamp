@@ -1,0 +1,16 @@
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\bin\Debug\net5.0\banco.exe
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\bin\Debug\net5.0\banco.deps.json
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\bin\Debug\net5.0\banco.runtimeconfig.json
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\bin\Debug\net5.0\banco.runtimeconfig.dev.json
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\bin\Debug\net5.0\banco.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\bin\Debug\net5.0\ref\banco.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\bin\Debug\net5.0\banco.pdb
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\obj\Debug\net5.0\banco.csproj.AssemblyReference.cache
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\obj\Debug\net5.0\banco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\obj\Debug\net5.0\banco.AssemblyInfoInputs.cache
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\obj\Debug\net5.0\banco.AssemblyInfo.cs
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\obj\Debug\net5.0\banco.csproj.CoreCompileInputs.cache
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\obj\Debug\net5.0\banco.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\obj\Debug\net5.0\ref\banco.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\obj\Debug\net5.0\banco.pdb
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\banco\obj\Debug\net5.0\banco.genruntimeconfig.cache
