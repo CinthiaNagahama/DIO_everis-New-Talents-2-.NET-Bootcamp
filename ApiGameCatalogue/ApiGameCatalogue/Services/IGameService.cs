@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ApiGameCatalogue.Services 
 {
-  public interface IGameService 
+  public interface IGameService : IDisposable
   {
     Task<List<GameViewModel>> Get(int page, int quantity);
     Task<GameViewModel> Get(Guid id);

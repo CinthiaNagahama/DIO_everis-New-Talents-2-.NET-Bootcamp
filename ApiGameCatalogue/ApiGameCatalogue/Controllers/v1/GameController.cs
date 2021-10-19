@@ -1,12 +1,11 @@
-﻿using ApiGameCatalogue.InputModel;
+﻿using ApiGameCatalogue.Exceptions;
+using ApiGameCatalogue.InputModel;
 using ApiGameCatalogue.Services;
 using ApiGameCatalogue.ViewModel;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace ApiGameCatalogue.Controllers.v1 
@@ -48,8 +47,7 @@ namespace ApiGameCatalogue.Controllers.v1
         var game = await _gameService.Insert(inputGame);
         return Ok(game);
       } 
-      //catch(AlreadyRegisteredGameException ex)
-      catch(Exception)
+      catch(AlreadyRegisteredGameException)
       {
         return UnprocessableEntity("Já existe um jogo com esse nome para essa produtora");
       }
@@ -62,8 +60,7 @@ namespace ApiGameCatalogue.Controllers.v1
         await _gameService.Update(gameId, inputGame);
         return Ok();
       }
-      //catch(NotRegisteredGameException ex)
-      catch (Exception) 
+      catch(NotRegisteredGameException)
       {
         return UnprocessableEntity("Esse jogo não existe");
       }
@@ -76,8 +73,7 @@ namespace ApiGameCatalogue.Controllers.v1
         await _gameService.Update(gameId, price);
         return Ok();
       }
-      //catch(NotRegisteredGameException ex)
-      catch (Exception) 
+      catch(NotRegisteredGameException)
       {
         return UnprocessableEntity("Esse jogo não existe");
       }
@@ -91,8 +87,7 @@ namespace ApiGameCatalogue.Controllers.v1
         await _gameService.Remove(gameId);
         return Ok();
       }
-      //catch(NotRegisteredGameException ex)
-      catch (Exception) 
+      catch(NotRegisteredGameException)
       {
         return UnprocessableEntity("Esse jogo não existe");
       }
