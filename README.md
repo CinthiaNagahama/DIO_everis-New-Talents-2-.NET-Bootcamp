@@ -11,3 +11,5 @@ Projetos e atividades feitos durante o Bootcamp "everis New Talents #2 .NET" da 
   Introdução à sql server
 - [dio](https://github.com/CinthiaNagahama/DIO_everis-New-Talents-2-.NET-Bootcamp/tree/main/dio) <br>
   Aplicação web para gerenciamento de usuários e seus cursos
+- [ApiGameCatalogue](https://github.com/CinthiaNagahama/DIO_everis-New-Talents-2-.NET-Bootcamp/tree/main/ApiGameCatalogue) <br>
+  API web com documentação swagger para catalogar jogos
