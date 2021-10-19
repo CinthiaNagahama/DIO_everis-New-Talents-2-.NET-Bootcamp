@@ -94,7 +94,7 @@ namespace ApiGameCatalogue.Services
 
     public async Task Remove(Guid id)
     {
-      var game = _gameRepository.Get(id);
+      var game = await _gameRepository.Get(id);
 
       if (game == null) throw new NotRegisteredGameException();
 

@@ -26,3 +26,10 @@ C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\ApiGameCa
 C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\ApiGameCatalogue\ApiGameCatalogue\obj\Debug\net5.0\ref\ApiGameCatalogue.dll
 C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\ApiGameCatalogue\ApiGameCatalogue\obj\Debug\net5.0\ApiGameCatalogue.pdb
 C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\ApiGameCatalogue\ApiGameCatalogue\obj\Debug\net5.0\ApiGameCatalogue.genruntimeconfig.cache
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\ApiGameCatalogue\ApiGameCatalogue\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\ApiGameCatalogue\ApiGameCatalogue\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\ApiGameCatalogue\ApiGameCatalogue\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\ApiGameCatalogue\ApiGameCatalogue\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\ApiGameCatalogue\ApiGameCatalogue\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\ApiGameCatalogue\ApiGameCatalogue\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\cinth\Documents\GitHub\DIO_everis-New-Talents-2-.NET-Bootcamp\ApiGameCatalogue\ApiGameCatalogue\bin\Debug\net5.0\ApiGameCatalogue.xml

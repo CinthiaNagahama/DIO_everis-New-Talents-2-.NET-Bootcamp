@@ -21,6 +21,16 @@ namespace ApiGameCatalogue.Controllers.v1
       _gameService = gameService;
     }
 
+    /// <summary>
+    /// Busca todos os jogos de forma paginada
+    /// </summary>
+    /// <remarks>
+    /// Não é possível retornar os jogos sem paginação
+    /// </remarks>
+    /// <param name="page">Indica a página que está sendo consultada. Mínimo 1</param>
+    /// <param name="quantity">Indica a quantidade de jogos por página. Mínimo 1</param>
+    /// <response code="200">Retorna a lista de jogos</response>
+    /// <response code="204">Caso não haja jogos</response>
     [HttpGet]
     public async Task<ActionResult<List<GameViewModel>>> Get(
       [FromQuery, Range(1, int.MaxValue)] int page = 1, 
@@ -31,6 +41,12 @@ namespace ApiGameCatalogue.Controllers.v1
       return result.Count == 0 ? NoContent() : Ok(result);
     }
 
+    /// <summary>
+    /// Busca jogo pelo id
+    /// </summary>
+    /// <param name="gameId">Indica o Id do jogo</param>
+    /// <response code="200">Retorna a lista de jogos</response>
+    /// <response code="204">Caso não haja jogos</response>
     [HttpGet("{gameId:guid}")]
     public async Task<ActionResult<GameViewModel>> Get([FromRoute] Guid gameId) 
     {
@@ -39,6 +55,12 @@ namespace ApiGameCatalogue.Controllers.v1
       return game == null ? NoContent() : Ok(game);
     }
 
+    /// <summary>
+    /// Cadastra um novo jogo
+    /// </summary>
+    /// <param name="inputGame">Indica o jogo</param>
+    /// <response code="200">Retorna os dados do jogo inserido</response>
+    /// <response code="422">Caso já exista um jogo com o mesmo nome da produtora</response>
     [HttpPost]
     public async Task<ActionResult<GameViewModel>> InsertGame([FromBody] GameInputModel inputGame) 
     {
@@ -53,6 +75,13 @@ namespace ApiGameCatalogue.Controllers.v1
       }
     }
 
+    /// <summary>
+    /// Atualiza um jogo existente
+    /// </summary>
+    /// <param name="gameId">Indica o Id do jogo a ser atualizado</param>
+    /// <param name="inputGame">Indica os dados atualizados</param>
+    /// <response code="200">Caso a atualização ocorra com sucesso</response>
+    /// <response code="422">Caso o jogo não exista</response>
     [HttpPut("{gameId:guid}")]
     public async Task<ActionResult> UpdateGame([FromRoute] Guid gameId, [FromBody] GameInputModel inputGame) {
       try 
@@ -66,6 +95,13 @@ namespace ApiGameCatalogue.Controllers.v1
       }
     }
 
+    /// <summary>
+    /// Atualiza o preço de um jogo existente
+    /// </summary>
+    /// <param name="gameId">Indica o Id do jogo a ser atualizado</param>
+    /// <param name="price">Indica o preço atualizado</param>
+    /// <response code="200">Caso a atualização ocorra com sucesso</response>
+    /// <response code="422">Caso o jogo não exista</response>
     [HttpPatch("{gameId:guid}/{price:double}")]
     public async Task<ActionResult> UpdateGame([FromRoute] Guid gameId, [FromRoute] double price) {
       try 
@@ -79,6 +115,12 @@ namespace ApiGameCatalogue.Controllers.v1
       }
     }
 
+    /// <summary>
+    /// Remove um jogo existente
+    /// </summary>
+    /// <param name="gameId">Indica o Id do jogo a ser removido</param>
+    /// <response code="200">Caso a remoção ocorra com sucesso</response>
+    /// <response code="422">Caso o jogo não exista</response>
     [HttpDelete("{gameId:guid}")]
     public async Task<ActionResult> RemoveGame([FromRoute] Guid gameId) 
     {
